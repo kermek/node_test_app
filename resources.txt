@@ -1,0 +1,8 @@
+https://github.com/jaredhanson/passport-local/tree/master/examples/login
+https://github.com/jaredhanson/passport-github/tree/master/examples/login
+https://github.com/settings/applications/new
+https://github.com/jaredhanson/passport-github/blob/master/examples/login/app.js
+http://hackathonstarter.herokuapp.com/
+https://github.com/sahat/hackathon-starter
+http://blog.varonis.com/introduction-to-oauth/
+https://www.npmjs.com/package/mongojs
