@@ -1,0 +1,16 @@
+<% if (!user) {%>
+<h3>Please, login</h3>
+<form action="/login" method="POST">
+  <input name="username"
+    type="text"
+    placeholder="Please, enter your name">
+  <input name="password"
+    type="password"
+    placeholder="Please, enter your password">
+  <input type="submit" value="Sign me in!">
+</form>
+<p><a href="/auth/github">Sign in using Github</a></p>
+<% } else {%>
+  <a href="/logout">Logout</a>
+  <pre><code> <%= JSON.stringify(user, null, 2) %></code></pre>
+<% } %>
