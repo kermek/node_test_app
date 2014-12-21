@@ -14,8 +14,9 @@
   "pre-commit": [
     "jshint",
     "jscs"
-    ],
+  ],
   "dependencies": {
+    "ejs": "^1.0.0",
     "express": "^4.10.6"
   },
   "devDependencies": {
