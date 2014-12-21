@@ -1,4 +1,3 @@
 {
-  "preset": "airbnb",
-  "strict": false
+  "preset": "airbnb"
 }

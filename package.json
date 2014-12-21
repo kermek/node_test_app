@@ -11,6 +11,10 @@
     "jshint": "jshint index.js",
     "jscs": "jscs index.js"
   },
+  "pre-commit": [
+    "jshint",
+    "jscs"
+    ],
   "dependencies": {
     "express": "^4.10.6"
   },
