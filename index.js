@@ -2,7 +2,7 @@ var express = require('express'),
     app = express(),
     port = 8080;
 
-app.get('*', function (req, res) {
+app.get('*', function(req, res) {
   res.end('Hello world!');
 });
 

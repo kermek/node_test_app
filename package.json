@@ -7,12 +7,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "jshint": "jshint index.js",
+    "jscs": "jscs index.js"
   },
   "dependencies": {
     "express": "^4.10.6"
   },
   "devDependencies": {
-    "nodemon": "^1.2.1"
+    "jscs": "^1.8.1",
+    "jshint": "^2.5.11",
+    "nodemon": "^1.2.1",
+    "pre-commit": "0.0.9"
   }
 }
