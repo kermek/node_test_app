@@ -7,4 +7,4 @@ app.get('*', function(req, res) {
 });
 
 app.listen(port);
-console.log('Server is up on poty %s.', port);
+console.log('Server is up on poty %s!', port);
