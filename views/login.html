@@ -1,0 +1,14 @@
+<% if (!user) {%>
+<h3>Please, login</h3>
+<form action="/login" method="POST">
+  <input name="username"
+    type="text"
+    placeholder="Please, enter your name">
+  <input name="password"
+    type="password"
+    placeholder="Please, enter your password">
+  <input type="submit" value="Sign me in!">
+</form>
+<% } else {%>
+  <a href="/logout">Logout</a>
+<% } %>
