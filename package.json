@@ -11,13 +11,11 @@
     "jshint": "jshint index.js",
     "jscs": "jscs index.js"
   },
-  "pre-commit": [
-    "jshint",
-    "jscs"
-  ],
   "dependencies": {
     "ejs": "^1.0.0",
-    "express": "^4.10.6"
+    "express": "^4.10.6",
+    "passport": "^0.2.1",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "jscs": "^1.8.1",
